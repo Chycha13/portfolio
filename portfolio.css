@@ -1,0 +1,151 @@
+body{
+    margin:0;
+    background-image: url(./img/background.jpg);
+    background-size: cover;
+    width:100%;
+}
+/* logo + rotation */
+.header{
+    display: flex;
+    justify-content: space-around;
+    width:100vw;
+}
+.texte{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+.paragraph1{
+    display: flex;
+    margin-top: 8%;
+    width: auto;
+    align-items: center;
+    text-align: center;   
+}
+.logo{
+    clip-path: polygon(75% 0, 100% 51%, 75% 100%, 25% 100%, 0% 50%, 25% 0%);
+    background-color: #FFB800;
+    width:0.3%;
+    height:5%;
+    padding:5px;
+    display: flex;
+    margin-left: 3%;
+    transform-origin: 50% 50%;  
+}
+@keyframes rotating {
+    from{
+        transform: rotateY(0deg);
+    }
+    to{
+        transform: rotateY(360deg);   
+    }
+}
+.paragraph2{
+    display: flex;
+    margin-top: 5%;
+    width: auto;
+    align-items: center;
+    text-align: center;
+}
+.logo2{
+    clip-path: polygon(75% 0, 100% 51%, 75% 100%, 25% 100%, 0% 50%, 25% 0%);
+    background-color: #FFB800;
+    width:0.3%;
+    height:5%;
+    padding:5px;
+    display: flex;
+    margin-left: 3%;
+    transform-origin: 50% 50%;  
+}
+.rotate {
+    animation: rotating 5s linear infinite;
+}
+/* Fin logo */
+.tagrossetete {
+    background-color: pink;
+    font-size: xx-large;
+}
+/*boutton */
+.bouttonPosition{
+    margin-top: 150px;
+    display: flex;
+    justify-self: flex-start;
+}
+.bouttonStyle{
+    background-color: #061622;
+    padding:25px 60px;
+    box-shadow: 0 6px white;
+    font-family: monospace;
+    border-radius: 20px;
+    color: white;
+    outline: none;
+    border:solid 1px white;
+    cursor: pointer;
+    position: relative;
+}
+.bouttonStyle:hover{
+    box-shadow: 0 4px white;
+    top: 2px;
+}
+.bouttonStyle:active{
+    box-shadow: 0 0 white;
+    top: 6px;
+}
+#btnProjets{
+    padding: 34px 65px;
+   
+}
+/* Fin boutton */
+
+/* Texte */
+.present{
+    color: white;
+    text-decoration: underline;
+    font-family: monospace;   
+    margin-left: 0.5%;
+
+}
+.paragraph{
+    color: white;
+    margin-left: 4%;
+    font-size: x-large;
+    font-family:monospace;
+   
+}
+#comp{
+  color: white;
+    text-decoration: underline;
+    font-family: monospace;
+    margin-left: 0.5%;
+}
+/* FIN TEXTE */
+
+/* LOGO COMP */
+.logoComp{
+    display: flex;
+    align-items: center;
+    column-gap: 2%;
+    margin-left: 3%;
+    padding-top: 2%;
+}
+/*fin LOGO COMP */
+.paragraph3{
+    display: flex;
+    margin-top: 5%;
+    width: auto;
+    align-items: center;
+    
+  
+}
+.contact{
+    display: flex;
+    align-items: center;
+    
+}
+/*cube*/
+canvas {
+    display: block;
+    margin:0;
+    align-self: center;
+    margin-right: 1%;
+}
