@@ -196,7 +196,11 @@ body{
  .deco {
      text-decoration: none;
  }
-
+#tel{
+    color:white;
+    font-size: 20px;
+    margin-left: 39px;
+}
 
 
   
