@@ -149,53 +149,43 @@ body{
 
 /* PAGE PROJET */
 .placement{
+    height : 30%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     margin-top: 8%;
 }
-
-
+@media screen and (max-width: 808px) {
+   
+    .carte2{
+        margin-top: 50px;
+    }
+    .carte4{
+        margin-top: 50px;
+    }
+}
  .carte{
-    width: 400px;
-    height: 260px;
-    background-color: white;
+    
     display: flex;
-    align-items: center;
-    justify-content: center; 
  }
- #bordure{
-     border: solid 3px #061622;
- }
+ 
  .carte2{
-    width: 400px;
-    height: 260px;
-    background-color: white;
+    
     display: flex;
-    align-items: center;
-    justify-content: center; 
+ 
  }
- #bordure2{
-    border: solid 3px #061622;
- }
+
  .carte3{
-    width: 400px;
-    height: 260px;
-    background-color: white;
     display: flex;
-    align-items: center;
-    justify-content: center; 
+     
  }
  .carte4{
-    width: 400px;
-    height: 260px;
-    background-color: white;
+    
+    
     display: flex;
-    align-items: center;
-    justify-content: center; 
+    
  }
- .deco {
-     text-decoration: none;
- }
+
 #tel{
     color:white;
     font-size: 20px;
